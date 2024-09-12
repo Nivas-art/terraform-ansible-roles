@@ -11,7 +11,7 @@
     amazon.aws.ec2_instance:
       instance_type: t2.micro
       name: "{{ item }}"
-      security_group: allow-everything #replace with you AWS values
+      security_group: allow-everything #replace with our AWS values
       image_id: ami-090252cbe067a9e58
       tags:
         Name: "{{ item }}"
